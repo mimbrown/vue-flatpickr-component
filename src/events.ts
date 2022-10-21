@@ -1,21 +1,19 @@
 // Events to emit, copied from flatpickr source
-const includedEvents = [
+export const includedEvents = [
   'onChange',
   'onClose',
   'onDestroy',
   'onMonthChange',
   'onOpen',
   'onYearChange',
-];
+] as const;
 
 // Let's not emit these events by default
-const excludedEvents = [
+export const excludedEvents = [
   'onValueUpdate',
   'onDayCreate',
   'onParseConfig',
   'onReady',
   'onPreCalendarPosition',
   'onKeyDown',
-];
-
-export {includedEvents, excludedEvents}
+] as const;

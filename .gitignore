@@ -1,51 +1,24 @@
-# http://git-scm.com/docs/gitignore
-
-# various IDEs
-.idea/
-*.sublime-*
-.vscode/
-
-# logs and cache
-/logs/
+# Logs
+logs
 *.log
 npm-debug.log*
-.sass-cache
-.cache
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS generated files
-[Tt]humbs.db
-ehthumbs.db
-*~
-.*~
-._*
-*.bak
-*.save
-*.swp
+node_modules
+dist
+dist-ssr
+*.local
 
-# Recycle bin folder used by different os
-.Trash-*
-$RECYCLE.BIN/
-
-# Windows shortcuts
-*.lnk
-
-# Folder config file
-[Dd]esktop.ini
-*.DS_Store
-.DS_Store?
-
-# 3rd party vendor
-node_modules/
-
-# Security tokens
-*.pem
-*.pub
-*.crt
-*.key
-
-# Project related
-*.tgz
-/dist/
-/docs/
-/tmp/
-/coverage/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
